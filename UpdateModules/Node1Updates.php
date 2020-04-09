@@ -1,7 +1,7 @@
 <?PHP
 class UpdateModule_Node1Update implements UpdateModule
 {
-    const node = "node1";
+    public $node = "node1";
 
     public function PreRun($GitFolder)
     {
