@@ -1,5 +1,5 @@
 <?PHP
-class Node1Updates implements UpdateModule
+class UpdateModule_Node1Update implements UpdateModule
 {
     const node = "node1";
 
