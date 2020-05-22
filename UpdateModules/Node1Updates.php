@@ -1,12 +1,11 @@
 <?PHP
 class UpdateModule_Node1Update implements UpdateModule
 {
-    public $Node = "node1";
+    public $Nodes = array("all");
 
     public function PreRun($ModuleHelper, $GitFolder)
     {
         echo "prerun" . PHP_EOL;
-        $ModuleHelper::TestFunction();
     }
 
     public function Run($ModuleHelper, $GitFolder)
