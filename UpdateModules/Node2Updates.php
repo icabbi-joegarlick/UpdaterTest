@@ -1,5 +1,5 @@
 <?PHP
-class UpdateModule_Node2Update implements UpdateModule
+class UpdaterModule_Node2Update implements UpdaterModule
 {
     public $Nodes = array("node2");
 
